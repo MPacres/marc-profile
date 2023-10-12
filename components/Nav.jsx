@@ -1,13 +1,15 @@
 "use client"
 import React, { useState } from "react";
 import Link from "next/link";
+import { Menu, X } from "lucide-react";
 
-const NavLink = () => {
+
+const NavLinks = () => {
   return (
     <>
-      <Link href="/about">About</Link>
-      <Link href="/about">About</Link>
-      <Link href="/about">About</Link>
+      <Link href="/about" className="py-2">Home</Link>
+      <Link href="/about" className="py-2">Projects</Link>
+      <Link href="/about" className="py-2">About</Link>
     </>
   );
 };
@@ -23,14 +25,24 @@ const Nav = () =>{
 
 
     return(
-        <nav className="w-1/3">
-            <div className="flex justify-between">
-                <NavLink />
+        <>
+        <nav className="flex w-1/3 justify-end">
+            <div className="hidden md:flex w-60 justify-between">
+                <NavLinks />
             </div>
-            <div>
-                <button></button>
+            <div className="md:hidden">
+                <button onClick={toggleNavbar}>{
+                    isOpen ? <X/> :  <Menu />
+                }</button>
             </div>
         </nav>
+        {isOpen && (
+            <div className="flex flex-col items-right basis-full text-right md:hidden">
+                <NavLinks/>
+            </div>
+        )
+        }
+        </>
     )
 }
 
