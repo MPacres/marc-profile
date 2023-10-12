@@ -7,8 +7,8 @@ import Nav from './Nav'
 
 const Header = () => {
   return (
-    <header className='                    border-b
-    border-gray-500'>
+    <header className='
+                custom-gradient'>
     <div  className="
                     bg-dark-background
                     sticky top-0 z-[20]
