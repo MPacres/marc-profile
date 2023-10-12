@@ -4,6 +4,9 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
+    <main>
+    <title>TEST</title>
   <Header/>
+  </main>
   )
 }
