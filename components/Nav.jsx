@@ -7,8 +7,8 @@ import { Menu, X } from "lucide-react";
 const NavLinks = () => {
   return (
     <>
-      <Link href="/about" className="py-2">Home</Link>
-      <Link href="/about" className="py-2">Projects</Link>
+      <Link href="/home" className="py-2">Home</Link>
+      <Link href="/projects" className="py-2">Projects</Link>
       <Link href="/about" className="py-2">About</Link>
     </>
   );
