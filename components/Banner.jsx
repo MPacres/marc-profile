@@ -16,7 +16,7 @@ const Banner = () => {
    <div className='md:container mx-auto flex flex-col py-8 px-4'>
     <h2 className='uppercase text-4xl font-semibold'>MARC PACRES</h2>
     <div className='pt-2'>
-    <h3 className='text-xl'>Sr. Fullstack Engineer</h3>
+    <h3 className='text-xl'>Sr. Fullstack Developer</h3>
     <p className='pt-2 text-sm'>Specialized in building high quality application software for different platform devices.</p>
     </div>
    </div>
