@@ -7,7 +7,7 @@ const About = () => {
         <h2 className="text-xl font-semibold">About</h2>
         <div className="pt-4">
         <p>
-          Hey, I'm Marc, a Sr. Fullstack Developer with more than 7 years of
+          Hey, I&apos;m Marc, a Sr. Fullstack Developer with more than 7 years of
           solid experience in building high quality application softwares.
         </p>
         <p className="pt-4">
