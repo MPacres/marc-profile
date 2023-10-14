@@ -7,20 +7,15 @@ import Nav from './Nav'
 
 const Header = () => {
   return (
-    <header className='
-                custom-gradient'>
-    <div  className="
-                    bg-dark-background
-                    sticky top-0 z-[20]
-                    mx-auto flex w-full
-                    items-center
-                    justify-between
-                   p-4 flex-wrap md:container">
+    // <header className='custom-gradient'>
+
+
+    <div  className="bg-white sticky top-0 z-[20] mx-auto flex w-full items-center justify-between p-4 flex-wrap  md:bg-white ">
     <Logo/>
     <Nav/>
 
     </div>
-</header>
+// </header>
   )
 }
 
