@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section className="bg-gray-200">
       <div className="md:container mx-auto flex flex-col py-4 px-4">
-        <h2 className="text-xl font-semibold">My Skills</h2>
+        <h2 className="text-xl font-semibold">My Skills </h2>
         <div>
           <div className="pt-4 grid grid-flow-col gap-3 text-center ">
             <span className="py-1 px-6 border border-purple-900 border border-purple-900-purple-900 rounded-full text-sm">JAVA</span>
