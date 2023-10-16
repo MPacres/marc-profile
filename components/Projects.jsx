@@ -1,6 +1,16 @@
 import React from "react";
+import Pills from "./common/Pills";
+
 
 const Projects = () => {
+
+const dashboardTech = [
+                        { key : 1, name:'React-Next JS'},
+                        { key : 2, name:'JavaScript'},
+                        { key : 3, name:'TailwindCSS'},
+                        { key : 4, name:'ChartJS'}
+                    ];
+
   return (
     <section className="bg-gray-200">
       <div className="md:container mx-auto flex flex-col py-4 px-4">
@@ -14,24 +24,13 @@ const Projects = () => {
           <div className=" h-40 border border-purple-700 "></div>
         </div>
         <div className="space-y-2">
-          <div className="pt-2 text-xs space-x-2">
-            <span className="border border-gray-500 rounded-full px-4 py-1">
-              React-Next JS
-            </span>
-            <span className="border border-gray-500 rounded-full px-4 py-1">
-              JavaScript
-            </span>
-            <span className="border border-gray-500 rounded-full px-4 py-1">
-              TailwindCSS
-            </span>
-          </div>
-          <div className="pt-2 text-xs space-x-2">
-            <span className="border border-gray-500 rounded-full px-4 py-1">
-              ChartJS
-            </span>
-          </div>
-        </div>
+        <Pills data={dashboardTech} />
+
+         </div>
       </div>
+
+
+   
     </section>
   );
 };

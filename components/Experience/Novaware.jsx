@@ -1,6 +1,23 @@
 import React from 'react'
+import Pills from '../common/Pills'
+
 
 const Novaware = () => {
+
+  const data = [
+    { key : 1, name:'PHP'},
+    { key : 2, name:'JavaScript'},
+    { key : 3, name:'Java'},
+    { key : 4, name:'C++'},
+    { key : 5, name:'jQuery'},
+    { key : 6, name:'MySQL'},
+    { key : 7, name:'Oracle DB'},
+    { key : 8, name:'Tortoise SVN'},
+    { key : 9, name:'Android Studio'},
+    { key : 10, name:'QT Creator'},
+    { key : 11, name:'CodeIgniter'}
+];
+
   return (
     <div className="py-2 grid grid-flow-row gap-1">
     <div className="grid grid-flow-col justify-between">
@@ -17,29 +34,9 @@ const Novaware = () => {
     </p>
     <div className="space-y-2">
       <div className="pt-2 text-xs space-x-2">
-        <span className="border border-gray-500 rounded-full px-4 py-1">
-          PHP
-        </span>
-        <span className="border border-gray-500 rounded-full px-4 py-1">
-          JavaScript
-        </span>
-        <span className="border border-gray-500 rounded-full px-4 py-1">
-            Java
-        </span>
-        <span className="border border-gray-500 rounded-full px-4 py-1">
-            C++
-        </span>
-      </div>
-      <div className="pt-2 space-x-2 text-xs">
-        <span className="border border-gray-500 rounded-full px-4 py-1">
-          JQuery
-        </span>
-        <span className="border border-gray-500 rounded-full px-4 py-1">
-          MySQL
-        </span>
-        <span className="border border-gray-500 rounded-full px-4 py-1">
-            Oracle DB
-        </span>
+
+        <Pills data={data}/>
+
       </div>
     </div>
   </div>
