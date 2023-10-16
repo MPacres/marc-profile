@@ -15,7 +15,7 @@ export default function Home() {
     <Banner/>
     <About/>
     <Experience/>
-    <Skills/>
+    {/* <Skills/> */}
 
   </main>
   )

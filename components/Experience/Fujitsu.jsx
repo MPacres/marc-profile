@@ -20,25 +20,27 @@ const Fujitsu = () => {
       <div className="space-y-2">
         <div className="pt-2 text-xs space-x-2">
           <span className="border border-gray-500 rounded-full px-4 py-1">
-            GroovyScript
+            Java
           </span>
           <span className="border border-gray-500 rounded-full px-4 py-1">
             JavaScript
           </span>
 
           <span className="border border-gray-500 rounded-full px-4 py-1">
-            RactiveJS
+            Batch
           </span>
-        </div>
-        <div className="pt-2 space-x-2 text-xs">
           <span className="border border-gray-500 rounded-full px-4 py-1">
             JQuery
           </span>
-          <span className="border border-gray-500 rounded-full px-4 py-1">
-            PHP
-          </span>
+
+        </div>
+        <div className="pt-2 space-x-2 text-xs">
+
           <span className="border border-gray-500 rounded-full px-4 py-1">
           Oracle DB
+          </span>
+          <span className="border border-gray-500 rounded-full px-4 py-1">
+            SVN
           </span>
         </div>
       </div>

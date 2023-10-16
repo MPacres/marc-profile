@@ -40,7 +40,22 @@ const Synergy = () => {
           <span className="border border-gray-500 rounded-full px-4 py-1">
           Oracle DB
           </span>
+          <span className="border border-gray-500 rounded-full px-4 py-1">
+          MySQL
+          </span>
         </div>
+        <div className="pt-2 space-x-2 text-xs">
+        <span className="border border-gray-500 rounded-full px-4 py-1">
+          AWS
+          </span>
+          <span className="border border-gray-500 rounded-full px-4 py-1">
+          Git
+          </span>
+          <span className="border border-gray-500 rounded-full px-4 py-1">
+          Bitbucket
+          </span>
+
+            </div>
       </div>
     </div>
 

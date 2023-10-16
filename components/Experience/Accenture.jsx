@@ -21,24 +21,30 @@ const Accenture = () => {
           GroovyScript
         </span>
         <span className="border border-gray-500 rounded-full px-4 py-1">
+          Java
+        </span>
+        <span className="border border-gray-500 rounded-full px-4 py-1">
           JavaScript
         </span>
 
-        <span className="border border-gray-500 rounded-full px-4 py-1">
-          RactiveJS
-        </span>
       </div>
       <div className="pt-2 space-x-2 text-xs">
         <span className="border border-gray-500 rounded-full px-4 py-1">
-          JQuery
+          Oracle DB
         </span>
         <span className="border border-gray-500 rounded-full px-4 py-1">
-          PHP
+          Jasper Report
         </span>
         <span className="border border-gray-500 rounded-full px-4 py-1">
-        Oracle DB
+          AS9
         </span>
       </div>
+      <div className="pt-2 space-x-2 text-xs">
+
+      <span className="border border-gray-500 rounded-full px-4 py-1">
+          Azure DevOps
+        </span>
+        </div>
     </div>
   </div>
 
