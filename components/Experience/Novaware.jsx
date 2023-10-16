@@ -38,7 +38,7 @@ const Novaware = () => {
           MySQL
         </span>
         <span className="border border-gray-500 rounded-full px-4 py-1">
-        Oracle DB
+            Oracle DB
         </span>
       </div>
     </div>
