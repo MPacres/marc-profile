@@ -7,9 +7,9 @@ import { Menu, X } from "lucide-react";
 const NavLinks = () => {
   return (
     <>
-      <Link href="/home" className="py-2 border-t border-b border-red-700 text-gray-700 md:border-0 md:text-red-200 md:underline md:hover:underline underline-offset-8">Home</Link>
-      <Link href="/projects" className="py-2 border-b border-red-700 md:border-b-0 md:hover:underline underline-offset-8">Projects</Link>
-      <Link href="/about" className="py-2 border-b border-red-700 md:border-b-0 md:hover:underline underline-offset-8 bg-p">About</Link>
+      <Link href="/home" className="py-2  text-gray-700 md:border-0 md:text-red-200 md:underline md:hover:underline underline-offset-8">Home</Link>
+      <Link href="/projects" className="py-2  md:border-b-0 md:hover:underline underline-offset-8">Projects</Link>
+      <Link href="/about" className="py-2 md:border-b-0 md:hover:underline underline-offset-8 bg-p">About</Link>
     </>
   );
 };
