@@ -10,7 +10,7 @@ const Header = () => {
     // <header className='custom-gradient'>
 
 
-    <div  className="bg-white sticky top-0 z-[20] mx-auto flex w-full items-center justify-between px-4 py-2 flex-wrap md:container md:bg-white ">
+    <div  className=" bg-deep-purple sticky top-0 z-[20] mx-auto flex w-full items-center justify-between px-4 py-2 flex-wrap md:container md:bg-white ">
     <Logo/>
     <Nav/>
 
