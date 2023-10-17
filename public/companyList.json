@@ -1,0 +1,158 @@
+[
+    {
+      "company_name": "Synergy Infoconnect",
+      "year_of_service": "2023 - Present",
+      "job_title": "Fullstack Developer",
+      "description": [
+        "Currently, I work at Synergy Infoconnect where I build robust software using GroovyScript, JavaScript, PHP, Jasper, and Oracle DB. I specialize in creating and testing APIs for seamless integrations with external providers, utilizing AWS services like EC2 Instances, S3 buckets, and Elastic Block Store for successful web app deployments."
+      ],
+      "skills": [
+        {
+          "key": "1",
+          "name": "GroovyScript"
+        },
+        {
+          "key": "2",
+          "name": "Grails"
+        },
+        {
+          "key": "3",
+          "name": "PHP"
+        },
+        {
+          "key": "4",
+          "name": "JavaScript"
+        },
+        {
+          "key": "5",
+          "name": "Oracle DB"
+        },
+        {
+          "key": "6",
+          "name": "Bitbucket"
+        }
+      ]
+    },
+    {
+      "company_name": "Fujitsu",
+      "year_of_service": "2022 - 2023",
+      "job_title": "Lead Developer",
+      "description": [
+        "Previously, I was a Lead Developer at Fujitsu where I led a team of 13 and oversaw the development of a POS systems while mentoring junior - mid level developers. "
+      ],
+      "skills": [
+        {
+          "key": "1",
+          "name": "Java"
+        },
+        {
+          "key": "2",
+          "name": "JavaScript"
+        },
+        {
+          "key": "3",
+          "name": "Oracle DB"
+        },
+        {
+          "key": "4",
+          "name": "SQL"
+        },
+        {
+          "key": "5",
+          "name": "Tortoise SVN"
+        }
+      ]
+    },
+    {
+      "company_name": "Accenture",
+      "year_of_service": "2021 - 2022",
+      "job_title": "Software Engineer",
+      "description": [
+        "At Accenture, I began as a Software Engineer and progressed to Senior Software Engineer, focusing on UI extension development, coding standards, and process documentation."
+      ],
+      "skills": [
+        {
+          "key": "1",
+          "name": "GroovyScript"
+        },
+        {
+          "key": "2",
+          "name": "JavaScript"
+        },
+        {
+          "key": "3",
+          "name": "Java"
+        },
+        {
+          "key": "4",
+          "name": "JQuery"
+        },
+        {
+          "key": "5",
+          "name": "Azure DevOps"
+        },
+        {
+          "key": "6",
+          "name": "Oracle DB"
+        },
+        {
+          "key": "7",
+          "name": "Asset Suite 9"
+        }
+      ]
+    },
+    {
+      "company_name": "Novaware Systems Inc.",
+      "year_of_service": "2016 - 2021",
+      "job_title": "Software Engineer",
+      "description": [
+        "My journey started at Novaware Systems as a Software Developer where I built various applications, integrated open-source libraries, and improved team efficiency."
+      ],
+      "skills": [
+        {
+          "key": "1",
+          "name": "PHP"
+        },
+        {
+          "key": "2",
+          "name": "JavaScript"
+        },
+        {
+          "key": "3",
+          "name": "Java"
+        },
+        {
+          "key": "4",
+          "name": "JQuery"
+        },
+        {
+          "key": "5",
+          "name": "C++"
+        },
+        {
+          "key": "6",
+          "name": "MySQL"
+        },
+        {
+          "key": "7",
+          "name": "Oracle DB"
+        },
+        {
+          "key": "8",
+          "name": "Tortoise SVN"
+        },
+        {
+          "key": "9",
+          "name": "Android Studio"
+        },
+        {
+          "key": "10",
+          "name": "QTCreator"
+        },
+        {
+          "key": "11",
+          "name": "CodeIgniter"
+        }
+      ]
+    }
+  ]

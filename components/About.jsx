@@ -5,22 +5,12 @@ const About = () => {
     <section className="bg-gray-400">
       <div className="md:container mx-auto flex flex-col py-4 px-4">
         <h2 className="text-xl font-semibold">About</h2>
-        <div className="pt-4 text-sm">
+        <div className="pt-4 text-sm space-y-4">
         <p>
-          Hey, I&apos;m Marc, a Sr. Fullstack Developer with more than 7 years of
-          solid experience in building high quality application softwares.
+          Hey, I&apos;m Marc an experienced Full Stack Developer with a proven track record of delivering innovative and impactful solutions. Having worked at prestigious organizations, I have developed a wide range of skills that can be applied to any project.
         </p>
-        <p className="pt-4">
-          As a Fullstack developer I am experienced in using different
-          programming language but currently the main programming language that
-          I use are Java, Php, and JavaScript/TypeScript. You can see the complete list of programming languages and tools that I am familiar with in the <a href = "#" className="underline underline-offset-2">Skills</a> section.
-        </p>
-
-        <p className="pt-4">
-          As a Fullstack developer I am experienced in using different
-          programming language but currently the main programming language that
-          I use are Java, Php, and JavaScript/TypeScript. You can see the complete list of programming languages and tools that I am familiar with in the <a href = "#" className="underline underline-offset-2">Skills</a> section.
-        </p>
+        <p>I am always open to connecting with other tech enthusiasts to explore potential collaborations and new opportunities. Let's discuss innovative ideas and work towards creating a positive impact in the tech industry.</p>
+        
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ const Pills = (props) => {
  const dataArr = props.data;
 
   return (
-    <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
+    <ul className="flex flex-wrap" aria-label="Technologies used">
         {
             dataArr.map((item,index) => (
                 <li className="mr-1.5 mt-2" key = {index}>
