@@ -27,7 +27,7 @@ const Footer = () => {
         <hr />
         <div className='p-4 bg-deep-purple'>
         <p className='text-xs text-center text-gray-200 '>
-        © Copyright - {current_year}. Made by <a href="" className='underline underline-offset-4'>Marc Anthony Pacres</a>
+        © Copyright - {current_year} <br/><a href="" className='underline underline-offset-4'>Marc Anthony Pacres</a>
         </p>
         </div>
 
