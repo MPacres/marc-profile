@@ -10,9 +10,15 @@ const Footer = () => {
         <div className='p-4 bg-deep-purple '>
         <h2 className=' font-extrabold text-lg text-white'>SOCIAL</h2>
         <div className='flex gap-2'>
-        <Image src = "./assets/images/linkedin.svg" className='p-0 m-0 h-8' alt = "" />
-        <img src = "./assets/images/github.png" className='p-0 m-0 h-8' alt = "" />
-        <Image src = "./assets/images/upwork.svg" className='p-0 m-0 h-8' alt = "" />
+        <a href = "https://www.linkedin.com/in/marc-anthony-pacres-086a57122/">
+        <Image src = "./assets/images/linkedin.svg" className='p-0 m-0 h-8' alt = "linkedin profile" />
+        </a>
+        <a href ="https://github.com/MPacreshttps://github.com/MPacres">
+        <img src = "./assets/images/github.png" className='p-0 m-0 h-8' alt = "github profile" />
+        </a>
+        <a href = "">
+        <Image src = "./assets/images/upwork.svg" className='p-0 m-0 h-8' alt = "upwork profile" />
+        </a>
         </div>
 
 
