@@ -9,7 +9,7 @@ const About = () => {
         <p>
           Hey, I&apos;m Marc an experienced Full Stack Developer with a proven track record of delivering innovative and impactful solutions. Having worked at prestigious organizations, I have developed a wide range of skills that can be applied to any project.
         </p>
-        <p>I am always open to connecting with other tech enthusiasts to explore potential collaborations and new opportunities. Let's discuss innovative ideas and work towards creating a positive impact in the tech industry.</p>
+        <p>I am always open to connecting with other tech enthusiasts to explore potential collaborations and new opportunities. Let&apos;s discuss innovative ideas and work towards creating a positive impact in the tech industry.</p>
         
         </div>
       </div>
