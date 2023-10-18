@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <footer>
 
-        <div className='p-4 bg-deep-purple '>
-        <h2 className=' font-extrabold text-lg text-white'>SOCIAL</h2>
+        <div className='p-4 bg-oxford-blue'>
+        <h2 className=' font-extrabold text-lg text-mint-cream'>SOCIAL</h2>
         <div className='flex gap-2'>
         <a href = "https://www.linkedin.com/in/marc-anthony-pacres-086a57122/">
         <img src = "./assets/images/linkedin.svg" className='p-0 m-0 h-7' alt = "linkedin profile" />
@@ -25,8 +25,8 @@ const Footer = () => {
         </div>
 
         <hr />
-        <div className='p-4 bg-deep-purple'>
-        <p className='text-xs text-center text-gray-200 '>
+        <div className='p-4 bg-oxford-blue'>
+        <p className='text-xs text-center text-mint-cream '>
         © Copyright - {current_year} <br/><a href="" className='underline underline-offset-4'>Marc Anthony Pacres</a>
         </p>
         </div>

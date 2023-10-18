@@ -14,7 +14,13 @@ module.exports = {
         'custom-gradient': 'linear-gradient(90deg, #ff0000, #00ff00)',
       },
       colors:{
-        'deep-purple' : '#060120'
+        'deep-purple' : '#060120',
+        'oxford-blue' : '#011936',
+        'mint-cream':'#F4FFFD',
+        'charcoal':'#465362',
+        'naples-yellow':'#F9DC5C',
+        'crayola-red': '#ED254E'
+
       }
     },
   },
