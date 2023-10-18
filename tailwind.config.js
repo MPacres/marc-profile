@@ -19,8 +19,8 @@ module.exports = {
         'mint-cream':'#F4FFFD',
         'charcoal':'#465362',
         'naples-yellow':'#F9DC5C',
-        'crayola-red': '#ED254E'
-
+        'crayola-red': '#ED254E',
+        'pill-blue' :'#042751'
       }
     },
   },
