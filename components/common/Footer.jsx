@@ -14,7 +14,7 @@ const Footer = () => {
         <img src = "./assets/images/linkedin.svg" className='p-0 m-0 h-8' alt = "linkedin profile" />
         </a>
         <a href ="https://github.com/MPacreshttps://github.com/MPacres">
-        <img src = "./assets/images/github.png" className='p-0 m-0 h-8' alt = "github profile" />
+        <img src = "./assets/images/github.svg" className='p-0 m-0 h-8' alt = "github profile" />
         </a>
         <a href = "">
         <img src = "./assets/images/upwork.svg" className='p-0 m-0 h-8' alt = "upwork profile" />
