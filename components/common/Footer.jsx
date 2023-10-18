@@ -11,13 +11,13 @@ const Footer = () => {
         <h2 className=' font-extrabold text-lg text-white'>SOCIAL</h2>
         <div className='flex gap-2'>
         <a href = "https://www.linkedin.com/in/marc-anthony-pacres-086a57122/">
-        <img src = "./assets/images/linkedin.svg" className='p-0 m-0 h-8' alt = "linkedin profile" />
+        <img src = "./assets/images/linkedin.svg" className='p-0 m-0 h-7' alt = "linkedin profile" />
         </a>
         <a href ="https://github.com/MPacreshttps://github.com/MPacres">
-        <img src = "./assets/images/github.svg" className='p-0 m-0 h-8' alt = "github profile" />
+        <img src = "./assets/images/github.svg" className='p-0 m-0 h-7' alt = "github profile" />
         </a>
         <a href = "">
-        <img src = "./assets/images/upwork.svg" className='p-0 m-0 h-8' alt = "upwork profile" />
+        <img src = "./assets/images/upwork.svg" className='p-0 m-0 h-7' alt = "upwork profile" />
         </a>
         </div>
 
