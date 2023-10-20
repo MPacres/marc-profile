@@ -12,7 +12,7 @@ const Banner = () => {
     //         </div>
     //     </div>
     // </section>
-    <section className='text-mint-cream bg-oxford-blue'>
+    <section className='text-mint-cream bg-oxford-blue top-0'>
    <div className='mx-auto flex flex-col py-8 px-4 h-96 md:container '>
     <h2 className='uppercase text-4xl font-semibold'>MARC PACRES</h2>
     <div className='pt-2'>

@@ -26,18 +26,18 @@ const Nav = () =>{
 
     return(
         <>
-        <nav className="flex w-1/3 justify-end">
+        <nav className="flex w-1/3 justify-end px-2 items-center origin-center">
             <div className="hidden md:flex w-60 justify-between">
                 <NavLinks />
             </div>
             <div className="md:hidden">
                 <button onClick={toggleNavbar}>{
-                    isOpen ? <X className="text-gray-200"/> :  <Menu className="text-gray-200" />
+                    isOpen ? <X className="text-mint-cream"/> :  <Menu className="text-mint-cream" />
                 }</button>
             </div>
         </nav>
         {isOpen && (
-            <div className="flex flex-col items-right basis-full text-right text-gray-200 md:hidden">
+            <div className="flex flex-col items-right basis-full text-right text-mint-cream  md:hidden">
                 <NavLinks/>
             </div>
         )
