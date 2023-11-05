@@ -20,7 +20,7 @@ module.exports = {
         'charcoal':'#465362',
         'naples-yellow':'#F9DC5C',
         'crayola-red': '#ED254E',
-        'pill-blue' :'#042751'
+        'pill-blue' :'#042751',
       }
     },
   },

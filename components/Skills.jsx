@@ -28,7 +28,7 @@ const Skills = () => {
     <section className="bg-gray-200">
       <div className="md:container mx-auto flex flex-col py-4 px-4">
         <h2 className="text-xl font-semibold">My Skills </h2>
-        <Pills data={skillsList} />
+        <Pills data={skillsList} type ={'dark'}/>
       </div>
     </section>
   );
