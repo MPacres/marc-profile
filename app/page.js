@@ -12,18 +12,19 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-  <main>
+<>
+
+    <div className='top-0 bg-gradient-to-b from-oxford-blue  via-oxford-blue  to-blue-500 '>
     <Header/>
     <Banner/>
     <About/>
     <Experience/>
     <Skills/>
     <Projects/>
-    
-
-
-
     <Footer/>
-  </main>
+  
+    </div>
+    </>
   )
 }
+

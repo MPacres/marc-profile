@@ -66,7 +66,7 @@ const novaWare = {
   return (
     <section>
     <div className="p-4 space-y-8">
-      <h2 className=" text-xl font-semibold">Experience</h2>
+      <h2 className=" text-xl font-semibold text-white">Experience</h2>
 
 
       {jsonData !== null ? (

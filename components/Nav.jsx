@@ -7,9 +7,9 @@ import { Menu, X } from "lucide-react";
 const NavLinks = () => {
   return (
     <>
-      <Link href="/home" className="py-2  text-gray-200 md:border-0 md:text-red-200 md:underline md:hover:underline underline-offset-8">Home</Link>
-      <Link href="/projects" className="py-2  text-gray-200 md:border-b-0 md:hover:underline underline-offset-8">Projects</Link>
-      <Link href="/about" className="py-2 text-gray-200 md:border-b-0 md:hover:underline underline-offset-8 bg-p">About</Link>
+      <Link href="/home" className="py-2  text-oxford-blue md:border-0 md:text-red-200 md:underline md:hover:underline underline-offset-8">Home</Link>
+      <Link href="/projects" className="py-2 text-oxford-blue md:border-b-0 md:hover:underline underline-offset-8">Projects</Link>
+      <Link href="/about" className="py-2 text-oxford-blue md:border-b-0 md:hover:underline underline-offset-8 bg-p">About</Link>
     </>
   );
 };
@@ -32,12 +32,12 @@ const Nav = () =>{
             </div>
             <div className="md:hidden">
                 <button onClick={toggleNavbar}>{
-                    isOpen ? <X className="text-mint-cream"/> :  <Menu className="text-mint-cream" />
+                    isOpen ? <X className="text-oxford-blue"/> :  <Menu className="text-oxford-blue" />
                 }</button>
             </div>
         </nav>
         {isOpen && (
-            <div className="flex flex-col items-right basis-full text-right text-mint-cream  md:hidden">
+            <div className="flex flex-col items-right basis-full text-right text-oxford-blue pr-3 md:hidden">
                 <NavLinks/>
             </div>
         )

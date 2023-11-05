@@ -12,8 +12,8 @@ const Banner = () => {
     //         </div>
     //     </div>
     // </section>
-    <section className='text-mint-cream bg-oxford-blue top-0'>
-   <div className='mx-auto flex flex-col py-8 px-4 h-96 md:container '>
+    <section className='text-mint-cream  top-0 z-1 static'>
+   <div className=' grid py-8 px-4 h-96 md:container '>
     <h2 className='uppercase text-4xl font-semibold'>MARC PACRES</h2>
     <div className='pt-2'>
     <h3 className='text-xl'>Sr. Fullstack Developer</h3>

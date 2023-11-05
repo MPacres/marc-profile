@@ -3,6 +3,7 @@ import React from 'react'
 const Pills = (props) => {
 
  const dataArr = props.data;
+ const type = props.type? props.type: 'light'
 
   return (
     <ul className="flex flex-wrap" aria-label="Technologies used">
